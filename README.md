@@ -96,7 +96,7 @@ The system includes the following entities:
 
 4. **Access the application**
    - Open your browser and navigate to `http://localhost:8080`
-   - The sample data initializer creates a demo admin account: `admin@moviebooking.com` / `admin123`. Change or remove this demo credential before deploying the application.
+   - Use an administrator account configured for your environment to access administrative features.
 
 ## Usage
 
@@ -147,7 +147,7 @@ The system includes the following entities:
 Set the `DB_URL`, `DB_USERNAME`, and `DB_PASSWORD` environment variables. The default JDBC URL targets a local MySQL database named `movie_booking_system`.
 
 ### Security Configuration
-Default admin credentials can be changed in the SecurityConfig class or by updating the application properties.
+Administrative access requires an account with the administrator role.
 
 ## API Endpoints
 
